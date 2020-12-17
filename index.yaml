@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  metrics-server:
+  - apiVersion: v1
+    appVersion: 0.3.6
+    created: "2020-12-17T23:11:31.456802946Z"
+    deprecated: true
+    description: DEPRECATED - Metrics Server is a cluster-wide aggregator of resource usage data.
+    digest: f0bf1e191432dd0884949ad4c7f22c4488eecf02f1701540d309b9ab904a4471
+    home: https://github.com/kubernetes-incubator/metrics-server
+    keywords:
+    - metrics-server
+    name: metrics-server
+    sources:
+    - https://github.com/kubernetes-incubator/metrics-server
+    urls:
+    - https://github.com/rewards-devops/charts/releases/download/metrics-server-2.11.4/metrics-server-2.11.4.tgz
+    version: 2.11.4
+generated: "2020-12-17T23:11:31.32241554Z"
