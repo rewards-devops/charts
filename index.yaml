@@ -1,5 +1,24 @@
 apiVersion: v1
 entries:
+  kube2iam:
+  - apiVersion: v1
+    appVersion: 0.10.9
+    created: "2020-12-19T02:13:55.024928779Z"
+    deprecated: true
+    description: DEPRECATED - Provide IAM credentials to pods based on annotations.
+    digest: 83a50f50f93e2be5902839dcf9a37c34d1c76034d42d58f587efe926f51cf8f3
+    home: https://github.com/jtblin/kube2iam
+    keywords:
+    - kube2iam
+    - aws
+    - iam
+    - security
+    name: kube2iam
+    sources:
+    - https://github.com/jtblin/kube2iam
+    urls:
+    - https://github.com/rewards-devops/charts/releases/download/kube2iam-2.5.3/kube2iam-2.5.3.tgz
+    version: 2.5.3
   metrics-server:
   - apiVersion: v1
     appVersion: 0.3.6
