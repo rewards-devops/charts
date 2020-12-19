@@ -18,8 +18,9 @@ Those charts are still being used and maintained by Rewards Platform team.
 
 ## Usage
 
-Example to install metrics-server
+Example to install `metrics-server`
 
 ```sh
 helm repo add rr-charts https://rewards-devops.github.io/charts
 helm install metrics-server rr-charts/metrics-server
+```
