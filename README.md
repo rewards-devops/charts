@@ -23,3 +23,4 @@ Example to install `metrics-server`
 ```sh
 helm repo add rr-charts https://rewards-devops.github.io/charts
 helm install metrics-server rr-charts/metrics-server
+```
