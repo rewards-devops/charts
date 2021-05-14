@@ -10,7 +10,7 @@ on:
 
 jobs:
   release:
-    runs-on: [platform, devops, nonprod]
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v1
